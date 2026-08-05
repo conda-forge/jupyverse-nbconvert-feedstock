@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.1"
+  version: "0.1.2"
 
 package:
   name: jupyverse-nbconvert
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyverse-nbconvert/jupyverse_nbconvert-${{ version }}.tar.gz
-    sha256: 8206d550ff8422f801d67a1eeb79e2fc8028d74210d8f489a181c44d9d6b196d
+    sha256: 0f8a7ce5771b60605664ec40c1ec90f288ddf4f0674b7e0d6a670a088c016227
 
 build:
   noarch: python
